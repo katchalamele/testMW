@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+        <body>
+            <trans-unit id="Client">
+                <source>client</source>
+                <target>client</target>
+            </trans-unit>
+            <trans-unit id="Nom">
+                <source>nom</source>
+                <target>name</target>
+            </trans-unit>
+            <trans-unit id="Telephone">
+                <source>telephone</source>
+                <target>phone</target> 
+            </trans-unit>
+            <trans-unit id="Lien">
+                <source>lien</source>
+                <target>link</target> 
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
