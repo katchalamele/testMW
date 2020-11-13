@@ -7,8 +7,7 @@
 /public/bundles/
 /var/*
 !testMW.db
-/vendor/*
-!easycorp
+/vendor/
 
 ###< symfony/framework-bundle ###
 
