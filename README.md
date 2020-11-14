@@ -26,9 +26,9 @@ La totalité de la plateforme n'est accessible qu'aux administrateurs.
 Technologies utilisées
 ----------------------
 
-Symfony v5.1.8
-PHP v7.4.1
-EasyAdmin v3
+- Symfony v5.1.8
+- PHP v7.4.1
+- EasyAdmin v3
 
 Installation
 ------------
