@@ -23,10 +23,17 @@ Cette plateforme à été crée dans le cadre d'un test technique visant à cré
 
 La totalité de la plateforme n'est accessible qu'aux administrateurs.
 
+Technologies utilisées
+----------------------
+
+Symfony v5.1.8
+PHP v7.4.1
+EasyAdmin v3
+
 Installation
 ------------
 
-Prerequis: Installer le binaire symfony sur [cette page](https://symfony.com/download) pour
+Prerequis: Installer le binaire symfony sur disponible sur [cette page](https://symfony.com/download) pour
 pouvoir executer les commandes ci-après.
 
 ```
@@ -78,11 +85,11 @@ car **la plateforme n'est accessible qu'aux administrateurs**.
 Configuration BDD
 -----------------
 
-Pour lancer le projet pas besoin de configurer la base de donnée.
-Une base de donnée sqlite existe déja dans le projet et c'est celle qui est utilisée par défaut.
+Pour lancer le projet, pas besoin de configurer la base de donnée.
+Une base de donnée sqlite existe déja dans le projet dans `var/testMW.db` et c'est celle qui est utilisée par défaut.
 Le `.gitignore` à été modifié pour ne pas l'ignorer.
 
-Cependant Si vous voulez utiliser votre propre base de donnée il faudra
+Cependant, si vous voulez utiliser votre propre base de donnée il faudra
 modifier le fichier .env puis executer les commandes suivantes:
 
 ```
@@ -90,4 +97,4 @@ $ symfony console make:migration
 $ symfony console doctrine:migrations:migrate
 ```
 
-Enfin créer manuellement de nouveaux utilisateurs dans la nouvelle base de données.
+Et enfin, créer manuellement de nouveaux utilisateurs dans la nouvelle base de données.
